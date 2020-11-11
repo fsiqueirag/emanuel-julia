@@ -21,7 +21,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link"
                         exact
-                        to="/home"
+                        to="/emanuel-julia/home"
                     >
                         Inicio
                     </NavLink>
@@ -30,7 +30,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link"
                         exact
-                        to="/about"
+                        to="/emanuel-julia/about"
                     >
                         Sobre Mi
                     </NavLink>
