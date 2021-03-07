@@ -9,7 +9,7 @@ export const Navbar = () => {
             </button>
             <Link
                 className="navbar-brand"
-                to="/home"
+                to="/emanuel-julia/home"
             >
                 Emanuel Juliá
             </Link>
