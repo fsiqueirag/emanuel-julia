@@ -9,7 +9,7 @@ export const Navbar = () => {
             </button>
             <Link
                 className="navbar-brand"
-                to="./emanuel-julia/home"
+                to="./emanuel-julia/"
             >
                 Emanuel Juliá
             </Link>
@@ -21,7 +21,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link"
                         exact
-                        to="./emanuel-julia/home"
+                        to="./emanuel-julia/"
                     >
                         Inicio
                     </NavLink>
