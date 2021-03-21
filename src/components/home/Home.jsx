@@ -10,7 +10,7 @@ export const Home = () => {
             <div className="hero">
                 <h1 className="animate__animated animate__fadeIn animate__slow animate__delay-1s">Emanuel Juliá</h1>
 
-                <Link to="/emanuel-julia/about">
+                <Link to="/about">
                     <button className="btn btn-lg btn-outline-light animate__animated animate__fadeIn animate__slow animate__delay-2s">Empezar</button>
                 </Link>
             </div>
