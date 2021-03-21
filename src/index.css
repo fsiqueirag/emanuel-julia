@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #e68663;
+  --primary-light: rgb(238, 230, 230);
+  --primary-dark: #21282C;
+  --secondary-dark: #352A2E;
+}
+
+body {
+  background-color: var(--primary-light);
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: calc(100vh - 56px);
+  overflow: hidden;
+  overflow-y: hidden;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color:  var(--primary-dark);
+  z-index: 1;
+}
